@@ -1,0 +1,118 @@
+/*MÓVIL*/
+@media (max-width: 480px) {
+
+  body {
+    font-size: 15px;
+    overflow-x: hidden;
+  }
+
+  .ancho {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .hero {
+    height: 65vh;
+    background-position: center;
+  }
+
+  .overlay .titulo {
+    font-size: 30px;
+  }
+
+  .overlay .subtitulo {
+    font-size: 14px;
+  }
+
+  .btn-primary {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .contenido-sobre-mi {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contenido-sobre-mi .texto {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .contenido-sobre-mi .ilustracion img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  .iconos-area {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contenedor-habilidades {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .columna {
+    width: 100%;
+  }
+
+  .contenedor-proyectos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .botones {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-small {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .modal-content {
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .modal-content img {
+    width: 100%;
+  }
+
+  .caja-contacto {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .caja-contacto div {
+    margin-bottom: 8px;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  .footer a {
+    margin: 0 10px;
+    font-size: 22px;
+  }
+
+  .footer p {
+    margin-bottom: 8px;
+  }
+}
